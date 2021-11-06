@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body
+{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(45deg, #2880d8,#ac73cf,#ee68a4);
+    overflow: hidden;
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+}
+.container
+{
+    position: relative;
+    margin: auto;
+    width:80%;
+    height: 100%;
+}
+.prewiew
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width:100%;
+    top:30vh;
+    font-size: 48px;
+    font-weight: 900;
+    color:#fff;
+}
+.clock
+{
+    position: relative;
+    margin: auto;
+    top:33vh;
+    width:450px;
+    height: 225px;
+    background-color:#fff;
+    box-shadow:0px 0px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.clock__timer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    width:100%;
+    height: 110px;
+    color:#ac73cfbb;
+    opacity: .99;
+    font-size:90px;
+    font-weight: 300;
+}
+.clock__btn__block
+{
+    position: relative;
+    top:15px;
+    width:100%;
+    height: 100px;
+}
+.clock__btn__col
+{
+    display: grid;
+    grid-gap:50px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    position:relative;
+    width:80%;
+    height: 100%;
+    margin:auto;
+}
+.clock__btn__row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ac73cfbb;
+    color:#fff;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.clock__btn__row:hover
+{
+    background-color:#ac73cf96;
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+}
